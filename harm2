@@ -30,6 +30,7 @@
 
         h2 {
             color: #1a5276;
+            margin-top: 30px;
         }
 
         .highlight {
@@ -37,184 +38,86 @@
             color: #145a32;
         }
 
-        .section {
-            margin-top: 30px;
+        .category {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fafafa;
+            border-left: 4px solid #c5c5c5;
+            border-radius: 5px;
         }
 
-        .language-box {
+        .example-box {
+            margin-top: 10px;
+            padding: 10px;
             background: #eef7ff;
-            padding: 15px;
             border-left: 4px solid #2980b9;
             border-radius: 5px;
-            margin-top: 10px;
+            font-style: italic;
         }
 
-        footer {
-            margin-top: 40px;
-            text-align: center;
-            color: #777;
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: white;
         }
+
+        table, th, td {
+            border: 1px solid #aaa;
+            padding: 10px;
+        }
+
+        th {
+            background: #d6eaf8;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: #1a5276;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 
 <body>
 
-  <h1>Harmful Language: Definitions & Categories</h1>
+<div class="container">
+
+    <h1>Harmful Language: Definitions & Categories</h1>
 
     <p>
         Harmful language refers to any expression that causes psychological, emotional, 
-        social, or physical harm to individuals or groups. It can include insults, threats, 
-        discrimination, or any form of degrading communication. Categorising harmful 
-        language helps in moderation, analysis, and developing safer online environments.
+        social, or physical harm. Categorising harmful language helps moderation, 
+        analysis, and developing safer online environments.
     </p>
 
     <!-- Category Sections -->
-
     <div class="category">
         <h2>1. Abusive / Insulting Language</h2>
-        <p>Language intended to belittle or demean an individual, without targeting protected characteristics.</p>
-
-        <div class="example-box">
-            Example: “You’re so useless; nobody wants you on this team.”
-        </div>
-
-        <p><strong>Key Features:</strong> Personal insults, name-calling, belittling, not identity-related.</p>
+        <p>Language intended to belittle or demean an individual.</p>
+        <div class="example-box">Example: “You’re so useless; nobody wants you on this team.”</div>
+        <p><strong>Key Features:</strong> Personal insults, name-calling.</p>
     </div>
 
     <div class="category">
-        <h2>2. Hate Speech (Targeting Protected Characteristics)</h2>
-        <p>
-            Hostile or derogatory language directed at individuals because of protected traits 
-            such as race, ethnicity, religion, gender, disability, sexual orientation, etc.
-        </p>
-
-        <div class="example-box">
-            Example: “People from that ethnic group are not welcome here.”
-        </div>
-
-        <p><strong>Key Features:</strong> Identity-based attack, generalisations, exclusion, discrimination.</p>
+        <h2>2. Hate Speech</h2>
+        <p>Hostile language targeting protected characteristics (race, religion, etc.).</p>
+        <div class="example-box">Example: “People from that ethnic group are not welcome here.”</div>
+        <p><strong>Key Features:</strong> Identity-based attack, discrimination.</p>
     </div>
 
     <div class="category">
         <h2>3. Dehumanisation</h2>
-        <p>
-            Language that describes a person or group as less than human, comparing them to animals, 
-            objects, or sub-human beings.
-        </p>
-
-        <div class="example-box">
-            Example: “They’re like animals; they don’t deserve rights.”
-        </div>
-
-        <p><strong>Key Features:</strong> Removal of dignity, comparisons to animals/objects, justification for harm.</p>
+        <p>Comparing individuals to animals or sub-human beings.</p>
+        <div class="example-box">Example: “They’re like animals; they don’t deserve rights.”</div>
+        <p><strong>Key Features:</strong> Removal of dignity.</p>
     </div>
 
     <div class="category">
-        <h2>4. Threats / Harassment</h2>
-        <p>
-            Language expressing intent to cause harm or ongoing intimidation, including physical threats 
-            or repeated harassment.
-        </p>
-
-        <div class="example-box">
-            Example: “I'm going to come after you if you post that again.”
-        </div>
-
-        <p><strong>Key Features:</strong> Threatening harm, intimidation, repeated targeting.</p>
-    </div>
-
-    <div class="category">
-        <h2>5. Toxic Aggression</h2>
-        <p>
-            Highly hostile or aggressive language meant to provoke or escalate conflict, not necessarily 
-            tied to identity or explicit threats.
-        </p>
-
-        <div class="example-box">
-            Example: “You’re pathetic—just get lost already!”
-        </div>
-
-        <p><strong>Key Features:</strong> Aggressive tone, hostility, escalation of conflict.</p>
-    </div>
-
-    <div class="category">
-        <h2>6. Neutral / Non-harmful</h2>
-        <p>
-            Language that is safe, respectful, factual, or otherwise non-aggressive. Includes polite disagreement.
-        </p>
-
-        <div class="example-box">
-            Example: “I don’t agree with your opinion, but I see your point.”
-        </div>
-
-        <p><strong>Key Features:</strong> No insults, no hostility, respectful communication.</p>
-    </div>
-
-    <div class="category">
-        <h2>7. Ambiguous</h2>
-        <p>
-            Language where the meaning or intent is unclear and depends on context.
-        </p>
-
-        <div class="example-box">
-            Example: “Watch yourself next time.”
-        </div>
-
-        <p><strong>Key Features:</strong> Multiple interpretations possible, unclear tone or intention.</p>
-    </div>
-
-    <!-- Summary Table -->
-
-    <h2>Summary Table</h2>
-
-    <table>
-        <tr>
-            <th>Category</th>
-            <th>Definition</th>
-            <th>Example</th>
-        </tr>
-        <tr>
-            <td>Abusive / Insulting</td>
-            <td>Personal insults not targeting protected traits.</td>
-            <td>“You’re useless.”</td>
-        </tr>
-        <tr>
-            <td>Hate Speech</td>
-            <td>Attacks based on protected identity characteristics.</td>
-            <td>“People of your religion don’t belong here.”</td>
-        </tr>
-        <tr>
-            <td>Dehumanisation</td>
-            <td>Treating individuals/groups as less than human.</td>
-            <td>“They’re like animals.”</td>
-        </tr>
-        <tr>
-            <td>Threats / Harassment</td>
-            <td>Intent to cause harm or intimidate.</td>
-            <td>“I’ll come after you.”</td>
-        </tr>
-        <tr>
-            <td>Toxic Aggression</td>
-            <td>Highly hostile or inflammatory language.</td>
-            <td>“Get lost, you’re pathetic.”</td>
-        </tr>
-        <tr>
-            <td>Neutral / Non-harmful</td>
-            <td>Safe, respectful, non-hostile communication.</td>
-            <td>“Let’s discuss this politely.”</td>
-        </tr>
-        <tr>
-            <td>Ambiguous</td>
-            <td>Meaning unclear without context.</td>
-            <td>“Better be careful next time.”</td>
-        </tr>
-    </table>
-
-</div>
-
-    <!-- Back to Menu Link at Bottom -->
-    <a href="index.htm" class="back-link">← Back to Menu</a>
-
-    
-</body>
-</html>
