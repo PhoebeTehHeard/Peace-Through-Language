@@ -59,77 +59,158 @@
 
 <body>
 
-<div class="container">
-
-    <h1>Peace Through Language</h1>
-    <h2>Simple Steps to Building a Kinder World Online</h2>
-
-
-<div class="cover-photo"> <img src="cover_e.jpg" alt="Book Cover" width="30%"></div>
-    
-<style> 
-.cover-photo {
-    text-align: center;
-}
-.cover-photo img {
-    width: 30%;
-    height: auto;
-}
-</style>
-
-<div class="cover-photo">
-    cover_e.jpg
-</div>
-
+  <h1>Harmful Language: Definitions & Categories</h1>
 
     <p>
-        In a digital age where words travel faster than ever, language has become one of the most powerful tools 
-        we possess—capable of healing, connecting, and transforming our communities. 
-        <span class="highlight">Peace Through Language: Simple Steps to Building a Kinder World Online</span> 
-        is a practical and hopeful guide for anyone who believes that compassion begins with communication.
+        Harmful language refers to any expression that causes psychological, emotional, 
+        social, or physical harm to individuals or groups. It can include insults, threats, 
+        discrimination, or any form of degrading communication. Categorising harmful 
+        language helps in moderation, analysis, and developing safer online environments.
     </p>
 
-    <p>
-        This new book explores how our everyday interactions, such as, comments, messages, posts, and conversations shape 
-        the emotional climate of the online world. Through five accessible and insightful chapters, it offers readers 
-        simple, actionable strategies to cultivate empathy, reduce harm, and create spaces where people feel safe, 
-        respected, and understood.
-    </p>
+    <!-- Category Sections -->
 
-    <p>
-        Designed for students, educators, parents, content creators, and anyone navigating digital platforms, this 
-        book shows that peace-building does not require grand gestures. Instead, it begins with small, conscious 
-        choices: choosing kind words, understanding differences, and responding with care.
-    </p>
+    <div class="category">
+        <h2>1. Abusive / Insulting Language</h2>
+        <p>Language intended to belittle or demean an individual, without targeting protected characteristics.</p>
 
-    <div class="section">
-        <h2>Companion Booklets</h2>
-
-        <p>The book will be introduced online, followed by two expanded companion versions:</p>
-
-        <div class="language-box">
-            <strong>📘 English-language booklet</strong><br>
-            A concise, reader-friendly version for wider international audiences.
+        <div class="example-box">
+            Example: “You’re so useless; nobody wants you on this team.”
         </div>
 
-        <div class="language-box">
-            <strong>📗 Welsh-language booklet</strong><br>
-            Supporting bilingual engagement and strengthening community outreach.
-        </div>
+        <p><strong>Key Features:</strong> Personal insults, name-calling, belittling, not identity-related.</p>
     </div>
 
-    <div class="section">
+    <div class="category">
+        <h2>2. Hate Speech (Targeting Protected Characteristics)</h2>
         <p>
-            <em>Peace Through Language</em> is more than a book; it is an invitation to participate in creating 
-            a gentler digital future, one message at a time.
+            Hostile or derogatory language directed at individuals because of protected traits 
+            such as race, ethnicity, religion, gender, disability, sexual orientation, etc.
         </p>
+
+        <div class="example-box">
+            Example: “People from that ethnic group are not welcome here.”
+        </div>
+
+        <p><strong>Key Features:</strong> Identity-based attack, generalisations, exclusion, discrimination.</p>
     </div>
 
-</div>
+    <div class="category">
+        <h2>3. Dehumanisation</h2>
+        <p>
+            Language that describes a person or group as less than human, comparing them to animals, 
+            objects, or sub-human beings.
+        </p>
 
-<footer>
-    &copy; 2026 Peace Through Language Project
-</footer>
+        <div class="example-box">
+            Example: “They’re like animals; they don’t deserve rights.”
+        </div>
+
+        <p><strong>Key Features:</strong> Removal of dignity, comparisons to animals/objects, justification for harm.</p>
+    </div>
+
+    <div class="category">
+        <h2>4. Threats / Harassment</h2>
+        <p>
+            Language expressing intent to cause harm or ongoing intimidation, including physical threats 
+            or repeated harassment.
+        </p>
+
+        <div class="example-box">
+            Example: “I'm going to come after you if you post that again.”
+        </div>
+
+        <p><strong>Key Features:</strong> Threatening harm, intimidation, repeated targeting.</p>
+    </div>
+
+    <div class="category">
+        <h2>5. Toxic Aggression</h2>
+        <p>
+            Highly hostile or aggressive language meant to provoke or escalate conflict, not necessarily 
+            tied to identity or explicit threats.
+        </p>
+
+        <div class="example-box">
+            Example: “You’re pathetic—just get lost already!”
+        </div>
+
+        <p><strong>Key Features:</strong> Aggressive tone, hostility, escalation of conflict.</p>
+    </div>
+
+    <div class="category">
+        <h2>6. Neutral / Non-harmful</h2>
+        <p>
+            Language that is safe, respectful, factual, or otherwise non-aggressive. Includes polite disagreement.
+        </p>
+
+        <div class="example-box">
+            Example: “I don’t agree with your opinion, but I see your point.”
+        </div>
+
+        <p><strong>Key Features:</strong> No insults, no hostility, respectful communication.</p>
+    </div>
+
+    <div class="category">
+        <h2>7. Ambiguous</h2>
+        <p>
+            Language where the meaning or intent is unclear and depends on context.
+        </p>
+
+        <div class="example-box">
+            Example: “Watch yourself next time.”
+        </div>
+
+        <p><strong>Key Features:</strong> Multiple interpretations possible, unclear tone or intention.</p>
+    </div>
+
+    <!-- Summary Table -->
+
+    <h2>Summary Table</h2>
+
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Definition</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>Abusive / Insulting</td>
+            <td>Personal insults not targeting protected traits.</td>
+            <td>“You’re useless.”</td>
+        </tr>
+        <tr>
+            <td>Hate Speech</td>
+            <td>Attacks based on protected identity characteristics.</td>
+            <td>“People of your religion don’t belong here.”</td>
+        </tr>
+        <tr>
+            <td>Dehumanisation</td>
+            <td>Treating individuals/groups as less than human.</td>
+            <td>“They’re like animals.”</td>
+        </tr>
+        <tr>
+            <td>Threats / Harassment</td>
+            <td>Intent to cause harm or intimidate.</td>
+            <td>“I’ll come after you.”</td>
+        </tr>
+        <tr>
+            <td>Toxic Aggression</td>
+            <td>Highly hostile or inflammatory language.</td>
+            <td>“Get lost, you’re pathetic.”</td>
+        </tr>
+        <tr>
+            <td>Neutral / Non-harmful</td>
+            <td>Safe, respectful, non-hostile communication.</td>
+            <td>“Let’s discuss this politely.”</td>
+        </tr>
+        <tr>
+            <td>Ambiguous</td>
+            <td>Meaning unclear without context.</td>
+            <td>“Better be careful next time.”</td>
+        </tr>
+    </table>
+
+</div>
 
     <!-- Back to Menu Link at Bottom -->
     <a href="index.htm" class="back-link">← Back to Menu</a>
