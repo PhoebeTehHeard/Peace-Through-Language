@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Peace Through Language – Book Introduction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Introduction to the book Peace Through Language: Simple Steps to Building a Kinder World Online." />
+
+  <style>
+    :root {
+      --brand: #003366;
+      --accent: #005faa;
+      --text: #222;
+      --muted: #666;
+      --bg: #f4f6f7;
+      --card-bg: #ffffff;
+      --card-border: #e5e7eb;
+      --highlight: #145a32;
+      --section-blue: #eef7ff;
+      --section-border: #2980b9;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 1.25rem 1rem;
+      background: #ffffff;
+      border-bottom: 1px solid #eee;
+    }
+
+    header h1 {
+      margin: 0 0 .25rem 0;
+      font-size: 1.8rem;
+      color: var(--brand);
+    }
+    header p { margin: 0; color: var(--muted); }
+
+    nav {
+      background: #f9fbff;
+      border-bottom: 1px solid #e6eef8;
+    }
+
+    .menu {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      padding: .75rem 1rem;
+      margin: 0;
+      gap: .75rem 1rem;
+    }
+
+    .menu a, .menu span {
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .menu .section {
+      color: var(--muted);
+      font-weight: 700;
+      margin-right: .5rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: 10px;
+      border: 1px solid var(--card-border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1a5276;
+      margin-top: 30px;
+    }
+
+    .highlight {
+      color: var(--highlight);
+      font-weight: bold;
+    }
+
+    .cover-photo {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .cover-photo img {
+      width: 30%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .language-box {
+      background: var(--section-blue);
+      padding: 15px;
+      border-left: 4px solid var(--section-border);
+      border-radius: 5px;
+      margin: 12px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem 0 1rem;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header>
+    <h1>Peace Through Language</h1>
+    <p>Book Introduction and Companion Guides</p>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav aria-label="Primary">
+    <ul class="menu">
+      <li><a href="index.htm">Main</a></li>
+      <li><span class="section">Peace Through Language</span></li>
+      <li><a href="Harm.htm">Harmful Language</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+      <li><a href="support-sponsor.html">Sponsor and Support</a></li>
+    </ul>
+  </nav>
+
+  <main id="content">
+    <div class="card">
+
+      <h1 style="text-align:center; color:#2c3e50; margin-top:0;">Peace Through Language</h1>
+      <h2 style="text-align:center;">Simple Steps to Building a Kinder World Online</h2>
+
+      <div class="cover-photo">
+        <img src="cover_e.jpg" alt="Book Cover">
+      </div>
+
+      <p>
+        In a digital age where words travel faster than ever, language has become one of the most powerful tools we possess—capable of healing, connecting, and transforming our communities.
+        <span class="highlight">Peace Through Language: Simple Steps to Building a Kinder World Online</span>
+        is a practical and hopeful guide for anyone who believes that compassion begins with communication.
+      </p>
+
+      <p>
+        This book explores how everyday interactions—comments, messages, posts, and conversations—shape the emotional climate of the online world. Through five accessible and engaging chapters, it offers simple, actionable strategies to cultivate empathy, reduce harm, and create spaces where people feel safe, respected, and understood.
+      </p>
+
+      <p>
+        Designed for students, educators, parents, content creators, and anyone navigating digital platforms, this book shows that peace-building does not require grand gestures. Instead, it begins with small, intentional choices: choosing kind words, embracing differences, and responding with care.
+      </p>
+
+      <h2>Companion Booklets</h2>
+
+      <p>The book will be introduced online, followed by two expanded companion versions:</p>
+
+      <div class="language-box">
+        <strong>📘 English-language booklet</strong><br>
+        A concise, reader-friendly version for international audiences.
+      </div>
+
+      <div class="language-box">
+        <strong>📗 Welsh-language booklet</strong><br>
+        Supporting bilingual engagement and strengthening community outreach.
+      </div>
+
+      <p style="margin-top:30px;">
+        <em>Peace Through Language</em> is more than a book—it is an invitation to create a kinder digital future, one message at a time.
+      </p>
+
+    </div>
+
+    <a href="index.htm" class="back-link">← Back to Menu</a>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Peace Through Language Project
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
